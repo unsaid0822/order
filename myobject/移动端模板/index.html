@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+<head>
+<!-- 声明文档使用的字符编码 -->
+<meta charset='utf-8'>
+<!-- 优先使用 IE 最新版本和 Chrome -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<!-- 页面描述 -->
+<meta name="description" content="不超过150个字符"/>
+<!-- 页面关键词 -->
+<meta name="keywords" content=""/>
+<!-- 网页作者 -->
+<meta name="author" content="guo,1057540638@qq.com"/>
+<!-- 搜索引擎抓取 -->
+<meta name="robots" content="index,follow"/>
+<!-- 为移动设备添加 viewport -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=3,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,target-densityDpi=medium-dpi, minimal-ui" />
+<!-- `width=device-width` 会导致 iPhone 5 添加到主屏后以 WebApp 全屏模式打开页面时出现黑边 http://bigc.at/ios-webapp-viewport-meta.orz -->
+
+<!-- iOS 设备 begin -->
+<meta name="apple-mobile-web-app-title" content="标题">
+<!-- 添加到主屏后的标题（iOS 6 新增） -->
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+
+<!--meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL" -->
+<!-- 添加智能 App 广告条 Smart App Banner（iOS 6+ Safari） -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<!-- 设置苹果工具栏颜色 -->
+<meta name="format-detection" content="telphone=no, email=no"/>
+<!-- 忽略页面中的数字识别为电话，忽略email识别 -->
+
+<!-- 启用360浏览器的极速模式(webkit) -->
+<meta name="renderer" content="webkit">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- 不让百度转码 -->
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+<meta name="HandheldFriendly" content="true">
+<!-- 微软的老式浏览器 -->
+<meta name="MobileOptimized" content="320">
+<!-- uc强制竖屏 -->
+<meta name="screen-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<!-- UC强制全屏 -->
+<meta name="full-screen" content="yes">
+<!-- QQ强制全屏 -->
+<meta name="x5-fullscreen" content="true">
+<!-- UC应用模式 -->
+<meta name="browsermode" content="application">
+<!-- QQ应用模式 -->
+<meta name="x5-page-mode" content="app">
+<!-- windows phone 点击无高光 -->
+<meta name="msapplication-tap-highlight" content="no">
+<!-- iOS 图标 begin -->
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57x57-precomposed.png"/>
+<!-- iPhone 和 iTouch，默认 57x57 像素，必须有 -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png"/>
+<!-- Retina iPhone 和 Retina iTouch，114x114 像素，可以没有，但推荐有 -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png"/>
+<!-- Retina iPad，144x144 像素，可以没有，但推荐有 -->
+<!-- iOS 图标 end -->
+
+<!-- iOS 启动画面 begin -->
+<link rel="apple-touch-startup-image" sizes="768x1004" href="img/App-ios-logo-152x152.png"/>
+<!-- iPad 竖屏 768 x 1004（标准分辨率） -->
+<link rel="apple-touch-startup-image" sizes="1536x2008" href="img/App-ios-logo-152x152.png"/>
+<!-- iPad 竖屏 1536x2008（Retina） -->
+<link rel="apple-touch-startup-image" sizes="1024x748" href="img/App-ios-logo-152x152.png"/>
+<!-- iPad 横屏 1024x748（标准分辨率） -->
+<link rel="apple-touch-startup-image" sizes="2048x1496" href="img/App-ios-logo-152x152.png"/>
+<!-- iPad 横屏 2048x1496（Retina） -->
+
+<link rel="apple-touch-startup-image" href="img/App-ios-logo-152x152.png"/>
+<!-- iPhone/iPod Touch 竖屏 320x480 (标准分辨率) -->
+<link rel="apple-touch-startup-image" sizes="640x960" href="img/App-ios-logo-152x152.png"/>
+<!-- iPhone/iPod Touch 竖屏 640x960 (Retina) -->
+<link rel="apple-touch-startup-image" sizes="640x1136" href="img/App-ios-logo-152x152.png"/>
+<!-- iPhone 5/iPod Touch 5 竖屏 640x1136 (Retina) -->
+<!-- iOS 启动画面 end -->
+
+<!-- iOS 设备 end -->
+<meta name="msapplication-TileColor" content="#000"/>
+<!-- Windows 8 磁贴颜色 -->
+<meta name="msapplication-TileImage" content="icon.png"/>
+<!-- Windows 8 磁贴图标 -->
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml"/>
+<!-- 添加 RSS 订阅 -->
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
+<!-- 添加 favicon icon -->
+<!-- sns 社交标签 begin -->
+<!-- 参考微博API -->
+<meta property="og:type" content="类型" />
+<meta property="og:url" content="URL地址" />
+<meta property="og:title" content="标题" />
+<meta property="og:image" content="图片" />
+<meta property="og:description" content="描述" />
+<!-- sns 社交标签 end -->
+<title>首页</title>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body ontouchstart="return true;">
+
+	<!--头部-->
+	<header class="search" id="search">
+		<div class="header">
+			<h1>田老师红烧肉-朝阳将台路店</h1>
+		</div>
+		<!--通知公告/客服电话-->
+	</header>
+
+	<!--搜索内容-->
+	<div class="search-content" id="search-content">
+		<i class="icon-font"></i>
+	</div>
+
+	<!--内容区-->
+	<article class="main-container">
+		
+		<!--左侧栏目-->
+		<div class="sortNav" id="sortNav">
+			<p class="icon-sort line">分类导航</p>
+			<a href="javascript:void(0);" onclick="doselectList(this,1)">双拼套餐</a>
+			<a href="javascript:void(0);" onclick="doselectList(this,2)" class="select">盖饭</a>
+			<a href="javascript:void(0);" onclick="doselectList(this,3)">小菜</a>
+			<a href="javascript:void(0);" onclick="doselectList(this,4)">汤/饮料</a>
+		</div>
+		
+		<!--右侧产品-->
+		<div class="sortContent line">
+			<!--产品列表-->
+			<ol class="list-content" id="list-content1" style="display:none;">
+				<li class="line">
+					<a href="#">
+						<div class="pro-img"><img src="img/img25.jpg" alt=""></div>
+						<div class="pro-con"><h3>法国猪肋排 1kg/袋</h3><font>瘦肉多，绝对超值精排 </font><b>¥35.00</b><p>乐果派旗舰店</p></div>
+					</a>
+					<a href="javascript:doCartAdd(1)" class="list-cart"><i class="icon-cartadd"></i></a>
+				</li>
+				<li class="line">
+					<a href="#">
+						<div class="pro-img"><img src="img/img05.jpg" alt=""></div>
+						<div class="pro-con"><h3>乌拉圭进口牛肋条</h3><font>BTV推荐，全网独家热销</font><b>¥59.00</b><p>乐果派旗舰店</p></div>
+					</a>
+					<a href="javascript:doCartAdd(2)" class="list-cart"><i class="icon-cartadd"></i></a>
+				</li>
+				<li class="line">
+					<a href="#">
+						<div class="pro-img"><img src="img/img12.jpg" alt=""></div>
+						<div class="pro-con"><h3>智利肋排脆骨 1kg/袋</h3><b>¥56.60</b><p>乐果派旗舰店</p></div>
+					</a>
+					<a href="#" class="list-cart"><i class="icon-cartadd"></i></a>
+				</li>
+				<li class="line">
+					<a href="#">
+						<div class="pro-img"><img src="img/img28.jpg" alt=""></div>
+						<div class="pro-con"><h3>温氏 农养鸡 袋装 （800g）</h3><b>¥38.80</b><p>乐果派旗舰店</p></div>
+					</a>
+					<a href="#" class="list-cart"><i class="icon-cartadd"></i></a>
+				</li>
+			</ol>
+			<ol class="list-content" id="list-content2" style="display:none;">
+				<li class="line">
+					<a href="#">
+						<div class="pro-img"><img src="img/img29.jpg" alt=""></div>
+						<div class="pro-con"><h3>江西萍乡土鸡蛋</h3><font>林地散养，原粮喂养，蛋黄大，蛋清粘稠</font><b>¥12.80</b><p>乐果派旗舰店</p></div>
+					</a>
+					<a href="#" class="list-cart"><i class="icon-cartadd"></i></a>
+				</li>
+				<li class="line">
+					<a href="#">
+						<div class="pro-img"><img src="img/img30.jpg" alt=""></div>
+						<div class="pro-con"><h3>台湾皮蛋，松花蛋</h3><font></font><b>¥28.00<s>¥31.90</s></b><p>乐果派旗舰店</p></div>
+					</a>
+					<a href="#" class="list-cart"><i class="icon-cartadd"></i></a>
+				</li>
+			</ol>
+			<ol class="list-content" id="list-content3" style="display:none;">
+				<li class="line">
+					<a href="#">
+						<div class="pro-img"><img src="img/img07.jpg" alt=""></div>
+						<div class="pro-con"><h3>萍乡土鸡蛋</h3><font></font><b>¥28.00<s>¥31.90</s></b><p>乐果派旗舰店</p></div>
+					</a>
+					<a href="#" class="list-cart"><i class="icon-cartadd"></i></a>
+				</li>
+				<li class="line">
+					<a href="#">
+						<div class="pro-img"><img src="img/img16.jpg" alt=""></div>
+						<div class="pro-con"><h3>新鲜猪肉</h3><font></font><b>¥28.00<s>¥31.90</s></b><p>乐果派旗舰店</p></div>
+					</a>
+					<a href="#" class="list-cart"><i class="icon-cartadd"></i></a>
+				</li>
+				<li class="line">
+					<a href="#">
+						<div class="pro-img"><img src="img/img27.jpg" alt=""></div>
+						<div class="pro-con"><h3>鸡肉</h3><font></font><b>¥28.00<s>¥31.90</s></b><p>乐果派旗舰店</p></div>
+					</a>
+					<a href="#" class="list-cart"><i class="icon-cartadd"></i></a>
+				</li>
+			</ol>
+			<br><br>
+		</div>
+		
+		<!--购物车-->
+		<div class="cartContent fadeInBottom100" id="cartContent">
+			
+			<div class="LayerHeader line">
+				<button class="Del" onclick="doCartClear()"><i class="icon-delete"></i>清空</button>
+				<button class="close pl"><i class="icon-plus rot45"></i></button>
+			</div>
+			
+			<div class="cartContentList">
+				<ul class="line-li">
+					<!--li>
+						<img src="img/img01.jpg" alt=""><p>家乐都有机里脊肉 500g</p><span>¥150.00</span>
+						<div class="D-BuyNum"><button><i class="icon-reduce"></i></button><input type="number" readonly class="line" value="9"><button><i class="icon-plus"></i></button></div>
+					</li>
+					<li>
+						<img src="img/img02.jpg" alt=""><p>法国猪肋排 1kg/袋</p><span>¥150.00</span>
+						<div class="D-BuyNum"><button><i class="icon-reduce"></i></button><input type="number" class="line" value="9"><button><i class="icon-plus"></i></button></div>
+					</li>
+					<li>
+						<img src="img/img03.jpg" alt=""><p>乌拉圭进口（无骨）牛肋条 约1kg</p><span>¥150.00</span>
+						<div class="D-BuyNum"><button><i class="icon-reduce"></i></button><input type="number" class="line" value="9"><button><i class="icon-plus"></i></button></div>
+					</li-->
+				</ul>
+			</div>
+			
+			<div class="LayerFooter">
+				共计：<span>¥0.00</span>
+			</div>
+		</div>
+
+	</article>
+
+	<!--底部栏目-->
+	<menu>
+		<a href="shop.html"><i class="icon-selectmore"></i>切换店铺</a>
+		<!--a href="member-order.html"><i class="icon-allorders"></i>订单</a-->
+		<a href="javascript:void(0)" id="orderCart"><i class="icon-cart"><span>0</span></i>购物车</a>
+		<a href="member.html"><i class="icon-head"></i>我的</a>
+		<a><button onclick="location.href='order.html'">去结算</button></a>
+	</menu>
+	
+	<!--弹出圈圈loading-->
+	<div class="spinner" style="display:none;"><i></i></div>
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript">
+	function doselectList(ob,m){
+		$("#sortNav a").removeClass("select");
+		$(ob).addClass("select");
+		$("ol.list-content").hide();
+		$("#list-content"+m).show();
+		return false;
+	}
+
+	cartlist = [];
+
+	function doCartAdd(id){
+		shoplist = [{'id':1,'name':'法国猪肋排','cover_pic':'img/img25.jpg','price':35.00,'num':1},{'id':2,'name':'乌拉圭进口牛肋条','cover_pic':'img/img05.jpg','price':90.00,'num':1}];
+		shop = shoplist[id-1];
+		var b=true;
+		for(var i=0;i<cartlist.length;i++){
+			if(cartlist[i].id==id){
+				b = false;
+				cartlist[i].num += 1;
+				break;
+			}
+		}
+		if(b){
+			cartlist.push(shop);
+		}
+		doShowCart();
+
+	}
+
+	function doCartClear(){
+		cartlist = [];
+		doShowCart();
+	}
+
+	function doShowCart(){
+		var cartContent = $("#cartContent div.cartContentList ul.line-li");
+		cartContent.empty()
+		var total = 0.0;
+		for(var i=0;i<cartlist.length;i++){
+			var str = "<li>";
+			str += '<img src="'+cartlist[i].cover_pic+'" alt=""><p>'+cartlist[i].name+'</p><span>¥'+cartlist[i].price+'</span>';
+			str += '<div class="D-BuyNum"><button><i class="icon-reduce"></i></button><input type="number" readonly class="line" value="'+cartlist[i].num+'"><button><i class="icon-plus"></i></button></div>'
+			str += "</li>";
+			cartContent.append(str);
+			total += cartlist[i].price * cartlist[i].num; 
+		}
+		$("#cartContent div.LayerFooter span").html("￥"+total);
+		$("#orderCart i.icon-cart span").html(cartlist.length);
+	}
+
+
+
+</script>
